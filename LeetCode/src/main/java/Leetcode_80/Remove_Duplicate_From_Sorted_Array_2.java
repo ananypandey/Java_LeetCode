@@ -14,7 +14,8 @@ public class Remove_Duplicate_From_Sorted_Array_2
         {
             arr[i]= (int)(Math.random()*10);
         }
-        Arrays.sort(arr);
+
+                Arrays.sort(arr);
         for(int i : arr)
         {
             System.out.print(i+" ");
