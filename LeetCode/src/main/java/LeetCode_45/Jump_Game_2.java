@@ -20,7 +20,7 @@ public class Jump_Game_2
         for(int i=0;i<n-1;i++)
         {
             farthest = Math.max(farthest,i+arr[i]);
-            if(farthest>n-1)
+            if(farthest>=n-1)
             {
                 jump++;
                 break;
